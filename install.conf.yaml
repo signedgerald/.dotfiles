@@ -10,3 +10,11 @@
         create: true
 
 
+- clean: ['~']
+
+- link:
+    ~/.config/polybar:
+        path: config/polybar/
+        create: true
+
+
